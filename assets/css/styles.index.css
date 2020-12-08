@@ -1,0 +1,1085 @@
+@charset "UTF-8";
+
+/*CSS DOCUMENT*/
+
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    padding: 0;
+    border-width: initial;
+    border-style: initial;
+    border-color: initial;
+    border-image: none;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/*--Partie Header--*/
+
+#header {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    color: #ededeb;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #383234;
+}
+
+    #headerL {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 85%;
+        height: 100%;
+        padding-right: 1vw;
+    }
+
+        #headerL a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: auto;
+            text-decoration: none;
+            color: #ededeb;
+        }
+
+        #headerL p {
+            padding: 0 0 0 1vw;
+            text-decoration: none;
+            font-size: 0.8em;
+        }
+
+    #headerR { /* logos twitter et fb */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 5%;
+        height: 100%;
+    }
+
+        #headerR img {
+            width: 20px;
+            height: 20px;
+        }
+
+/*--Partie Navigation--*/
+
+#navBar { /* nav */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    background-color: #ededeb;
+}
+
+#logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    left: 2%;
+    z-index: 999;
+    width: 120px;
+    height: 120px;
+}
+
+#navButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 5vh;
+    padding: 0;
+    margin: 0;
+}
+
+    .bA { /*a*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14%;
+        height: 100%;
+        padding: 0 0.3vw;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+
+    .wE {
+        width: 25%;
+    }
+
+    .bA:hover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14%;
+        height: 100%;
+        padding: 0 0.3vw;
+        text-decoration: none;
+        color: #fff;
+        background-color: #383234;
+        font-weight: bold;
+    }
+
+    .wE:hover {
+        width: 25%;
+    }
+
+/*--Partie Présentation--*/
+
+#presentation {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background: no-repeat url("../images/presentation/slider-1.jpg");
+    background-size: cover;
+    border-bottom: 5px solid #a8a3a7;
+    border-top: 5px solid #a8a3a7;
+}
+
+    #presUne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 40%;
+    }
+
+        #presUne h1 {
+            color: #a3c003;
+            font-size: 4em;
+            margin: 5px 5px 5px 5px;
+            padding: 5px;
+        }
+
+/* Zone des 3 articles */
+
+#souspres { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+}
+
+        #souspart23 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 90%;
+        }
+
+            .souspart {
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                flex-direction: column;   
+                width: 90%;
+                height: 50%;
+            }
+
+                .souspart h2 {
+                    color: #a3c003;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 2em;
+                }
+
+                .souspart h3 {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 1.9em;
+                    text-align: right;
+                }
+
+/*--Zone des 4 logos à droite--*/
+
+        #souspart4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 100%;
+        }
+
+            #presQuatre {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+                height: 90%;
+            }
+
+                #img41 {
+                    position: relative;
+                    top: -10%;
+                    left: 27%;
+                    padding: 0;
+                    margin: 0;
+                    width: 5vw;
+                    height: auto;
+                }
+
+                #img42 {
+                    position: relative;
+                    top: -40%;
+                    left: 38%;
+                    padding: 0;
+                    margin: 0;
+                    width: 15vw;
+                    height: auto;
+                }
+
+                #img43 {
+                    position: relative;
+                    top: 30%;
+                    left: -10%;
+                    padding: 0;
+                    margin: 0;
+                    width: 7.5vw;
+                    height: auto;
+                }
+
+                #img44 {
+                    position: relative;
+                    top: 10%;
+                    left: 2%;
+                    padding: 0;
+                    margin: 0;
+                    width: 10vw;
+                    height: auto;
+                }
+
+/*--Partie Offres--*/
+
+#offres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ededeb;
+    width: 100%;
+    height: 70vh;
+}
+
+    #Top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 30%;
+    }
+
+        #topImg {
+            padding-right: 2vw;
+            width: 150px;
+            height: auto;
+        }
+
+        #titreOffreT {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 60%;
+            height: 50%;
+            font-size: 2em;
+        }
+
+        #titreOffreT p {
+            width: 100%;
+        }
+
+        #titreOffreT .color {
+            color: #a3c003;
+        }
+
+        #titreOffreT .bold {
+            font-weight: bold;
+        }
+
+    #Bottom { /*--contient le conteneur des 4 articles--*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        width: 80%;
+        height: 40%;
+    }
+
+        #containerOffresB {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            border: 5px solid #e1e2dd;
+        }
+
+        #titreOffreB { /* Titre <lengend> ou <p> */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-color:#ffec02;
+            width: 50%;
+            height: 10%;
+            z-index: 99;
+            padding: 0;
+            margin: auto;
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+            .Gmi {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                width: 80%;
+                height: 80%;
+            }
+
+                .containerImages {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0 0 5% 0;
+                }
+
+                    .images {
+                        margin: 0;
+                        padding: 0;
+                        width: 75px;
+                        height: 75px;
+                    }    
+
+                    .plus {
+                        padding-left: 10px;
+                    }
+
+                .Gmi h4 {
+                margin: 0;
+                padding: 0 0 2% 0;
+                width: 70%;
+                height: 10%;
+                } 
+
+                .Gmi p {
+                    margin: 0;
+                    padding: 0;
+                    width: auto;
+                    height: 50%;
+                    align-self: center;
+                }
+
+/*--Partie PreFooter--*/
+
+#preFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e08383;
+    width: auto;
+    height: 45vh;
+    background-color: #383234;
+}
+
+    .preDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 25%;
+        height: 90%;
+    }
+
+        .preDiv h4 {
+            display: flex;
+            margin: 0;
+            padding: 1% 0 0 10%;
+            align-items: center;
+            justify-content: flex-start;
+            color: #a3c003;;
+            width: 100%;
+            height: 15%;
+            line-height: 1em;
+        }
+
+        .preDiv p {
+            margin: 0;
+            padding: 1% 0 5% 10%;
+            color: #ededeb;
+            line-height: 0.4em;
+        }
+
+/*--Partie Footer--*/
+
+#inFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    clear: both;
+    width: 100%;
+    height: 3vh;
+    background-color: #ededeb;
+}
+
+    #inFooter p {
+        display: flex;
+        font-size: 0.8em;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 50%;
+        margin: 0;
+        padding: 0 5vw 0 0;
+        box-shadow: inset -0.05vw 0 rgb(0, 0, 0);
+    }
+
+    #inFooter #six {
+        box-shadow: unset;
+        padding: 0;
+    }
+
+/*--Partie Responsive Ecran 1200px et moins--*/
+
+@media screen and (max-width: 1200px) {
+
+    /*--Partie Navigation--*/
+    
+    #navBar { /* nav */
+        justify-content: flex-end;
+    }
+    
+    #logo {
+        left: 0;
+        width: 90px;
+        height: 90px;
+    }
+
+    /*--Partie Presentation--*/
+
+    #presUne {
+        font-size: 0.7em;
+    }
+
+    .souspart {
+        font-size: 0.8em;
+    }
+
+    /*--Partie Offres--*/
+
+    #offres {
+        height: 70vh;
+    }
+
+    #Bottom {
+        width: 90%;
+        height: 50%;
+    }
+
+        #Gmi {
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        #containerImages {
+            justify-content: space-around;
+            width: 24%;
+            height: 90%;
+        } 
+
+        .Gmi p {
+            margin: 0;
+            padding: 0;
+            width: 90%;
+            height: 60%;
+            align-self: center;
+        }    
+}
+
+/*--Partie Responsive Ecran 992px et moins--*/
+
+@media screen and (max-width: 992px) {
+
+    /*--Partie Navigation--*/
+    
+    #logo {
+        left: 1%;
+        width: 80px;
+        height: 80px;
+    }
+
+    #Bottom { /*--contient le conteneur des 4 articles--*/
+        height: 60%;
+    }
+
+    #titreOffreB { /* Titre <lengend> ou <p> */        
+        width: 70%;
+        font-size: 1em;
+    }
+
+    .Gmi h4 {
+    padding: 0 0 2vh 0;
+    } 
+
+    /*--Partie PreFooter--*/
+
+    .preDiv {
+        width: 25%;
+        height: 70%;
+    }
+
+    .preDiv h4 {
+        margin: 0;
+        padding: 0;
+        color: #a3c003;
+        height: 15%;
+        font-size: 0.7em;
+    }
+
+    .preDiv p {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*--Partie Footer--*/
+
+    #inFooter p {
+        font-size: 0.7em;
+        box-shadow: unset;
+        padding: 0;
+    }
+}
+
+/*--Partie Responsive Ecran 768px et moins--*/
+
+@media screen and (max-width: 768px) {
+
+    /*--Partie Header--*/    
+
+    #headerR { /* logos twitter et fb */
+        width: 10%;
+    }
+
+    /*--Partie Navigation--*/
+    
+    #logo {
+        display: none;
+    }
+
+    #navButton {
+        width: 100%;
+    }
+    
+    #navBar { /* nav */
+        justify-content: center;
+    }
+
+    .bA { /*li a*/
+        font-size: 0.8em;
+    }
+
+    .bA:hover {
+        font-size: 0.8em;
+    }
+
+    /*--Partie Presentation--*/
+
+    #presUne {
+        font-size: 0.5em;
+        width: 100%;
+    }
+
+    #souspres {
+        width: 100%;
+    }
+
+    #souspart23 {
+        font-size: 0.8em;
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    #souspart4 {
+        width: 30%;
+        height: 100%;
+        align-items: flex-end;
+    }
+
+    #presQuatre {    
+        flex-direction: column;  
+        justify-content: space-between;  
+        width: 100%;
+        height: 100%;
+    }
+
+        #img41 {
+            position: unset;
+            top: 0;
+            left: 0;
+            padding: 0;
+            margin: 0;
+            width: 5vw;
+            height: auto;
+        }
+
+        #img42 {
+            position: unset;
+            top: 0;
+            left: 0;
+            padding: 0;
+            margin: 0;
+            width: 15vw;
+            height: auto;
+        }
+
+        #img43 {
+            position: unset;
+            top: 0;
+            left: 0;
+            padding: 0;
+            margin: 0;
+            width: 7.5vw;
+            height: auto;
+        }
+
+        #img44 {
+            position: unset;
+            top: 0;
+            left: 0;
+            padding: 0;
+            margin: 0;
+            width: 15vw;
+            height: auto;
+        }
+
+    /*--Partie Offres--*/
+
+    #offres {
+        height: 60vh;
+        justify-content: space-around;
+    }
+
+    #Top {
+        width: 100%;
+        height: 15vh;
+    }
+
+    #topImg {
+        padding-right: 2vw;
+        width: 90px;
+        height: auto;
+    }
+
+    #titreOffreT {
+        font-size: 1.5em;
+    }
+
+    #Bottom {
+        width: 100%;
+        height: 40vh;
+    }
+
+    #containerOffresB {        
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    min-height: 0;
+    border: unset;
+    }
+
+    #Gmi {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 85%;
+    }
+    
+    #containerImages {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        width: 49%;
+        height: 49%;
+        text-align: center;
+    }
+
+    /*--Partie PreFooter--*/
+
+    #preFooter {
+        height: 30vh;
+    }
+
+    .preDiv {
+        justify-content: flex-start;
+        width: 30%;
+        height: 100%;
+    }
+
+    .preDiv p {
+        margin: 0;
+        padding: 0;
+        line-height: 1.3em;
+        font-size: 0.8em;
+    }
+
+    /*--Partie Footer--*/
+    
+    #inFooter {
+        width: 100%;
+        height: 10vh;
+    }
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+  }
+  
+  /* Quand la taille de l'écran est inférieur 680 pixels de large, tous les liens de la navigation sont cachés à l'exception du premier. Le symbole du menu burger s'affiche permettant en cliquant dessus d'afficher le contenu de la navigation. (.icon) */
+  
+  @media screen and (max-width: 680px) {
+
+    #headerL p {
+        font-size: 0.9em;
+    }
+
+    #navBar {
+        height: auto;
+    }
+
+    .topnav .bA:not(:first-child) {
+        display: none;
+    }
+
+    .topnav .bA {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 1vh 0;
+    }
+
+    .topnav .bA:hover { /*a*/
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 1vh 0;
+    }
+
+    .topnav .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5vh;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    #navButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;/* 100% ok */
+        height: auto;
+        text-align: center;
+    }
+
+    .topnav.responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        background-color: #ededeb;
+    }
+
+    .topnav.responsive .bA {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 1vh 0;
+    }
+
+    .topnav.responsive .bA:hover { /*a*/
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 1vh 0;
+  }
+
+    .topnav.responsive .icon {
+        padding-bottom: 0.5vh;
+    }
+
+  .souspart h2 {
+    font-size: 1.8em;
+  }
+
+  .Gmi {
+      font-size: unset;
+  }
+
+  .images {
+      width: 55px;
+      height: 55px;
+  }
+
+  .buttonPlus {
+      width: 23px;
+      height: auto;
+  }
+
+  #inFooter {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #inFooter p {
+    width: 45%;
+    height: auto;
+    padding-left: 5%;
+    justify-content: flex-start;
+  }
+}
+
+/*--Partie Responsive Ecran 540px et moins--*/
+
+@media screen and (max-width: 540px) {
+
+    #headerL p {
+        display: none;
+    }
+    
+    /*-- Partie Presentation--*/
+
+    #presUne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 30%;
+    }
+
+        #presUne h1 {
+            font-size: 3em;
+            margin: 5px 0;
+            padding: 5px 0 5px 0;
+        }
+    
+    #souspres {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    #souspart23 {
+        width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+
+    .souspart {
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .souspart h3 {
+        text-align: center;
+    }
+
+    #souspart4 {
+        width: 100%;
+        height: 20%;
+    }
+
+    #presQuatre {    
+        flex-direction: row;  
+        justify-content: space-around;  
+        width: 100%;
+        height: 100%;
+    }
+
+    /*--Partie Offres--*/
+
+    #offres {
+        height: 40vh;
+    }
+
+    #titreOffreB { /* Titre <lengend> ou <p> */        
+        width: 100%;
+        font-size: 1em;
+    }
+
+    #Bottom {
+        height: 25vh;
+    }
+
+    .Gmi {
+        height: 70%;
+    }
+
+    .Gmi p {
+        display: none;
+    }
+    
+    #containerImages {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 24%;
+        text-align: center;
+    }
+    
+    #preFooter p {
+        font-size: 0.8em;
+    }
+
+    #inFooter p {
+        width: 30%;
+        padding-left: 0;
+    }
+}
+
+/*--Partie Responsive Ecran 400px et moins--*/
+
+@media screen and (max-width: 400px) {
+
+    /*--Partie Offre--*/
+
+    #header {
+        justify-content: center;
+    }
+
+    #headerL {
+        display: none;
+    }
+
+    #headerR {
+        width: 50%;
+        justify-content: space-around
+    }
+
+    /* #Bottom {
+        display: none;
+    } */
+
+    #Bottom {
+        height: auto;
+    }
+
+    #containerOffresB {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #titreOffreB {
+        font-size: 0.9em;
+
+    }
+
+    #offres {
+        height: auto;
+    }
+
+    .Gmi {
+        padding-top: 1vh;
+    }
+
+    .images {
+        width: 15vw;
+        height: auto;
+    }
+
+    #Top {
+        height: auto;
+        padding-bottom: 0.5vh;
+    }
+
+    #topImg {
+        width: 40vw;
+        height: auto;
+    }
+
+    #titreOffreT p {
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+
+    #preFooter {
+        height: 10vh;
+        align-items: center;
+    }
+
+    .preDiv {
+        justify-content: center;
+    }
+
+    .preDiv p {
+        display: none;
+    }
+
+    /*--Partie Footer--*/
+
+    #inFooter {
+        height: 10vh;
+    }
+    
+    #inFooter img {
+        width: 22px;
+        height: auto;
+    }    
+
+    #inFooter p {
+        width: 43%;
+        justify-content: flex-start;
+        padding-left: 1%;
+    }
+}
